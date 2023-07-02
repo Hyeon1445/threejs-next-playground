@@ -1,4 +1,5 @@
-import ThreeExample from "@/components/example/example";
+import ThreeBox from "@/components/box";
+import { Canvas } from "@react-three/fiber";
 import Head from "next/head";
 
 export default function Home() {
@@ -7,11 +8,7 @@ export default function Home() {
       <Head>
         <title>Three</title>
       </Head>
-      <main>
-        <button>hello</button>
-        <div>home</div>
-        <ThreeExample />
-      </main>
+      <main></main>
     </>
   );
 }
